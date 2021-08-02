@@ -1,0 +1,38 @@
+.button{
+
+	width: 200px;
+	height: 50px;
+	background-color: indigo;
+	color: white;
+	font-weight: bold;
+	font-size: 18ep;
+	margin: 5px;
+	font-family: arial;
+
+}
+
+
+.heading{
+
+	font-family: arial;
+	text-align: center;
+
+
+}
+
+.text{
+
+	font-family: arial;
+	color: indigo;
+	font-size: 14ep;
+	text-align: center;
+
+
+}
+
+.rights{
+	font-family: arial;
+	font-size: 4ep;
+	color: indigo;
+	margin-top: 10px;
+}
