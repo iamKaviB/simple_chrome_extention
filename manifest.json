@@ -1,0 +1,23 @@
+{
+    "name": "SavClick",
+    "version": "1.0",
+    "manifest_version": 2,
+
+    "description": "easy way to save images.",
+    "page_action": {
+        "default_title": "Download Images from Google",
+        "default_popup": "popup.html"
+    },
+
+    "permissions": [
+        "storage",
+        "downloads",
+        "activeTab",
+        "declarativeContent"
+    ],
+
+    "background" : {
+        "scripts" : ["background.js", "jquery-3.4.1.min.js"],
+        "persistent" : false
+    }
+}
